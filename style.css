@@ -1,0 +1,963 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+	background: #f1f2f7;
+	margin: 0;
+    margin-top: 0px;
+    font-family: 'lato' , sans-serif;
+}
+
+.head{
+    background-image: url(http://www.futurewebtechnologies.com/images/creatorstouch-webdevelopment.jpg);
+    background-size: cover;
+    /*height: 40.4em;*/
+    background-attachment: fixed;
+    width: 100%;
+    background-position: center center;
+    height: 100%;
+    display: table;
+}
+.head-section{
+    text-align: center;
+    /*padding-top: 200px;
+    height: 20em;
+    padding-bottom: 128px;*/
+    font-family: abel;
+    color: white;
+    background-color: #034444;
+    opacity: 0.9;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+.head-name{
+	font-size: 38px;
+}
+.head-status{
+	font-size: 56px;
+    margin: 20px;
+}
+.head-work{
+	font-size: 19px;
+}
+.head-company{
+	font-size: 22px;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+    margin: 0;
+    padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.22);
+    width: 40px;
+    height: 28px;
+    padding-top: 12px;
+    border-radius: 20px;    
+    transition: all ease 0.3s;
+    text-decoration: none;
+}
+
+.socialbtns .fa-facebook:hover {
+  background-color: #3d5b99;;
+}
+.socialbtns .fa-github:hover {
+  background-color: grey;
+}
+.socialbtns .fa-linkedin:hover {
+  background-color: #0073a4;
+}
+hr{
+    width: 40%;
+    border-bottom: 4px double;
+
+}
+
+ul{
+    list-style-type:none;
+}
+
+
+h1{
+
+    font-size: 1.4em;
+    text-transform: uppercase;
+    background-color: white;
+    margin-top: 0px;
+    text-align: center;
+    color: #7d7c7b;
+    font-weight: inherit;
+    letter-spacing: 8px;
+    line-height: 4em;
+    box-shadow: 0px 1px #dcd4d4;
+    margin-bottom: 3em;
+}
+
+h2,h3,h5,h6{
+
+    font-size: 1.4em;
+    text-transform: uppercase;
+    background-color: white;
+    margin-top: 71px;
+    text-align: center;
+    color: #7d7c7b;
+    font-weight: inherit;
+    letter-spacing: 8px;
+    line-height: 4em;
+    box-shadow: 0px 1px #dcd4d4;
+    margin-bottom: 3em;
+}
+.about{
+    text-align: center;
+}
+.aboutimage{
+    margin: 0px 0 0 131px;
+}
+.author-image{
+    max-width: 16em;
+    float: left;
+    display: inline-block;
+    border: 9px solid white;
+    border-radius: 9px;
+    cursor: pointer;
+    height: 18.5em;
+    filter: grayscale(61%);
+}
+.author-image:hover{
+    box-shadow: 2px 3px 15px grey;
+    transition: box-shadow 0.3s ease-in-out;   
+    filter: grayscale(0);
+    transition: filter 0.8s ease-in;
+}
+.about-content {
+    border: 9px solid white;
+    background-color: white;
+    max-width: 50%;
+    padding: 34px 30px;
+    display: inline-block;
+    margin: 0 0px 0 -14px;
+    border-radius: 9px;
+}
+.about-content:hover{
+    box-shadow: 2px 3px 15px grey;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.about-story{
+    font-size: 113%;
+    color:black;
+}
+.about-para-red{
+    font-size: 93%;
+    color:#265aaf;
+}
+.about-para{
+    color:#2d92bf;
+}
+.resume{
+    margin: 18px;
+}
+.resume-button{
+    background-color: #05bc98;
+    border: 1px;
+    border-radius: 2px;
+    height: 28px;
+    width: 165px;
+    color: white;
+    cursor: pointer;
+}
+.resume-button:hover{
+    box-shadow: 3px 1px 22px cadetblue;    
+    transition: 0.10s;
+}
+.programming-skills{
+    background-color: white;
+    margin: 4% 13%;
+    padding: 3% 0%;
+    border: 1px solid white;
+    border-radius: 9px;
+    text-align: center;
+}
+.programming-skills:hover{
+    box-shadow: 2px 3px 15px grey;
+    transition: box-shadow 0.3s ease-in-out;   
+}
+.skillset{
+    text-align: center;
+    font-size: x-large;
+    color: #696767;
+}
+ .progress{
+    width: 59%;
+    margin: 2% 10%;
+    height: 2.5em;
+    position: relative;
+    box-shadow: 0px 1px #dcd4d4;
+    display: inline-block;
+  }
+  .progress-bar{
+    width: 75%;
+    height: 0.5em;
+  }
+  .course{
+    line-height: 39px;
+    text-align: -webkit-center;
+    color: white;
+   
+  }  
+  .programming-skills .skill-orange{
+    background: #ffcb6d;
+    height: 39px;
+    transition: width .6s ease;
+    margin-top: -15px;
+  }
+  .programming-skills .skill-violet{
+    background: #b459e5;
+    height: 39px;
+    margin-top: -15px;
+  }
+  .programming-skills .skill-blue{
+    background: #50bff1;
+    height: 39px;
+    margin-top: -15px;
+  }
+  .programming-skills .skill-green{
+    background: #4ed4c0;
+    height: 39px;  
+    margin-top: -15px;
+  }
+  .perce{
+    position: absolute;
+    top: 12px;
+    right: 13px;
+  }
+
+
+  .company{
+    list-style: none;
+}
+.company .tvsr-orgnisation-company{
+    width: 34%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 14px 21px;
+    border-radius: 6px;
+    margin: 5px 35px 0 77px;
+}
+.company .tvsr-orgnisation-company:hover{
+    box-shadow: 2px 3px 15px grey;
+    transition: box-shadow 0.3s ease-in-out;   
+}
+.company .alti-orgnisation-company{
+    width: 34%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 14px 21px;
+    border-radius: 6px;
+    margin: 5px 35px 0 77px;
+}
+.company .alti-orgnisation-company:hover{
+    box-shadow: 2px 3px 15px grey;
+    transition: box-shadow 0.3s ease-in-out;   
+}
+.orgnisation-designation{
+    font-size: large;
+}
+.orgnisation-name{
+    font-size: x-large;
+}
+/*
+.orgnisation-year{
+    border: 8px solid wheat;
+    border-radius: 50%;
+    width: 58px;
+    position: relative;
+    left: 43%;
+    display: block;
+    padding: 35px;
+    background-color: orange;
+    font-style: italic;
+    font-family: cursive;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+*/
+.orgnisation-about{
+    position: inherit;
+    font-size: medium;
+}    
+.orgnisation-TVSR-year{
+    display: inline-flex;
+    position: static;
+    border: 8px solid wheat;
+    border-radius: 50%;
+    width: 63px;
+    height: 61px;
+    padding: 28px 42px 62px 45px;
+    background-color: orange;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin: 0px;
+}
+.comp-logo{
+    font-size: 3.7em;
+    top: -76px;
+    position: relative;
+    left: 5px;
+}
+.comp-year{
+    position: relative;
+    top: 55px;
+    right: 30px;
+    font-size: 11px;
+}
+.orgnisation-Altisource-year{
+    display: inline-flex;
+    position: static;
+    border: 8px solid #f3d0f3;
+    border-radius: 50%;
+    width: 63px;
+    height: 61px;
+    padding: 28px 42px 62px 45px;
+    background-color: #550555;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.orgnisation-TVSR-year:hover {
+    transition: all ease 0.9s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+.orgnisation-Altisource-year:hover {
+    transition: all ease 0.9s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+.Recommandations-testimonal{
+    margin: 10% 18%;
+    text-align: center;
+}
+.carousel-image{
+    width: 11%;
+    border-radius: 50%;
+    height: 4em;
+}
+.fa{
+    float: left;
+    color: #e96656;
+    font-size: 2em;
+}
+
+.carousel{
+    position: relative;
+    overflow: hidden;
+    height: 30em;
+    margin: 0 auto;
+    max-width: 87%;
+    margin-bottom: -13%;
+}
+.carousel-content{
+    padding: 45px;
+}
+.fa-2x {
+    font-size: 2em;
+    padding: 24px;
+}
+.carouselline-first{
+    background-color: #f94040;    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.carouselline-second{
+    background-color: #adad06;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.Recommandations-testimonal input{
+    display: none;
+}
+.slide {
+    text-align: center;
+    height: 16em;
+    background-color: white;
+    position: absolute;
+    top: 0em;
+    left: 100%;
+    z-index: 10;
+    /*padding: 2em 2em;*/
+    font-size: 113%;
+    border-radius: 4%;
+    
+}
+.Recommandations-testimonal label{
+    font-size: 3em;
+    position: relative;
+    top: 3em;
+    color:rosybrown;
+}
+.Recommandations-testimonal .prev{
+    float: left;
+
+}
+.Recommandations-testimonal .next{
+    float: right;
+
+}
+.Recommandations-testimonal label:hover{
+    color: saddlebrown;
+    cursor: pointer;
+}
+[id^="slide"]:checked + .slide{
+    left: 0;
+    z-index: 100;
+    transition:  .19s ;
+}
+.carousel-name{
+    font-family: 'Homemade Apple', cursive;
+    font-size: smaller;
+    
+    margin-top: 0em;
+}
+.carousel-designation{
+    font-size: 12px;
+    
+    margin-top: -13px;
+}
+.sub{
+    /*text-align: right;
+    margin-right: 3em;*/
+}
+.veritas{
+    text-align: center;
+    margin: auto;
+    max-width: 48%;
+    background-color: white;
+    border: 1px solid white;
+    padding: 37px 0;
+    border-radius: 9px;
+}
+.veritas:hover{
+    box-shadow: 2px 3px 15px grey;
+    transition: box-shadow 0.3s ease-in-out;   
+}
+.name-ceritification{
+    font-size: 149%;
+    color: #7c7e88;
+}
+.form-message{
+    text-align: center;
+    margin: 0 0 38px 0;
+    font-size: larger;
+}
+.contact-form{
+    max-width: 76%;
+    margin: auto;
+    background-color: white;
+    padding: 42px 33px;
+    border-radius: 11px;
+    margin-bottom: 5em;
+}
+.firstield{
+    max-width: 100%;
+}
+.contact-form input{
+    min-width: 30%;
+    min-height: 45px;
+    float: left;
+    margin: 0 9px 0 0;
+}
+.contact-form textarea{
+    min-width: 93.3%;
+    margin-top: 30px;
+    min-height: 209px;
+}
+.contact-form input, .contact-form textarea{
+    background-color: #f1f2f7;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 3px 0px 0px 5px;
+    font-family: 'lato' , sans-serif;
+}
+.contact-form input, .contact-form textarea:focus{
+    
+}
+.send-button{
+    text-align: right;
+    margin: 19px 47px 0 0;
+}
+.submit{
+        background-color: #e96656;
+    color: white;
+    width: 199px;
+    height: 44px;
+    border: none;
+    border-radius: 7px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: #bf1e0b;
+    cursor: pointer;    
+    box-shadow: 3px 1px 22px #bf1e0b;    
+    transition: 0.10s;
+}
+
+#map {
+      height: 30em;
+    width: 100%;
+ }
+ .google{
+    margin: 0 auto;
+    width: 66em;
+    border: 19px solid white;
+    background-color: white;
+}
+.findme{
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 768px){
+    .google {
+    border: 9px solid white;
+    background-color: white;
+    margin: 0 31px;
+    width: auto;
+}
+}
+
+/*300px 480px*/
+@media only screen and (min-width: 300px) and (max-width: 480px){ 
+.head-section{
+    /*padding-top: 121px;
+    padding-bottom: 160px; 
+    height: 22.9em;*/   
+}
+.head-name{
+    font-size: 27px;
+}
+.head-status{
+    font-size: 24px;
+    margin: 20px;
+    font-weight: bold;
+    padding-top: 14px;
+}
+.head-company{
+    font-size: 20px;
+    padding-top: 16px;
+}
+.head-work{
+    font-size: 21px;
+    padding-top: 14px;
+}
+.socialbtns, .socialbtns ul, .socialbtns li{    
+    padding-top: 20px;
+} 
+
+
+.aboutimage{
+    margin:0px;
+}
+.author-image{
+    float: none;
+    max-width: 52%;
+    height: 17em;
+}
+.about-content{
+    margin: 18px 0 0 0;
+}
+.resume{
+    margin: 0px;
+}
+.progress{
+    width: 83%;
+    margin: 4% 0%;
+}
+.programming-skills{
+    margin: 0% 10%;
+    max-width: 71%;
+    padding: 25px 0px 62px 36px;
+}
+.programming-skills .skill-violet {
+    width: 75%;
+}
+.programming-skills .skill-blue {
+    width: 64%;
+}
+.programming-skills .skill-orange {
+    width: 51%;
+}
+.programming-skills .skill-green {
+    width: 56%;
+}
+.company{
+    padding-left: 0px;
+    text-align: center;
+}
+.company .tvsr-orgnisation-company {
+    width: 69%;
+    margin-top: 3em;
+    margin-left: 0;
+    margin-right: 0;
+}
+.company .alti-orgnisation-company {
+    width: 69%;
+    margin-top: 3em;
+    margin-left: 0;
+    margin-right: 0;
+}
+/*.Recommandations-testimonal {
+    margin: 10% 5%;
+    text-align: center;
+    height: auto;
+}
+.carousel {
+    min-height: 50em;
+}
+*/
+.slide {
+    height: auto;
+}
+.veritas{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 85%;
+}
+.veritas-logo{
+    max-width: 74%;
+}
+}
+/* media queries starts here */
+
+@media only screen and (min-width: 300px) and (max-width: 768px){
+
+    .contact-form {
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 17px 13px;
+    margin-bottom: 3em;
+}
+.contact-form input {
+    width: 96%;
+    margin: 0 0 20px 0;
+}
+.contact-form textarea {
+    width: 96%;
+    height: 186px;
+}
+.form {
+    display: block;
+    margin: 0 0 0 0;
+}
+}
+
+
+/*481px 768px*/
+@media only screen and (min-device-width : 481px) and (max-device-width : 768px){
+.head-section{
+    /*padding-top: 77px;
+    padding-bottom: 205px;*/
+    height: 100%;
+}
+.head-name {
+    font-size: 37px;
+}
+.head-status {
+    font-size: 45px;
+    margin: 22px;
+    padding-top: 20px;
+}
+.head-work {
+    font-size: 23px;
+    padding-top: 17px;
+}
+.head-company {
+    font-size: 22px;
+}
+.aboutimage{
+    margin:0px;
+}
+.author-image{
+    float: none;
+    max-width: 18em;
+}
+.about-content{
+    margin: 18px 0 0 0;
+    max-width: 72%;
+}
+.resume{
+    margin: 0px;
+}
+
+.progress {
+    width: 85%;
+    margin: 4% 0%;
+}       
+.programming-skills {
+    background-color: white;
+    margin: 4% 8%;
+    border: 1px solid white;
+    border-radius: 9px;
+    max-width: 79%;
+    padding: 25px 0px 27px 36px;
+    box-shadow: 1px 1px 3px #542727;
+}
+.company {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.company .tvsr-orgnisation-company {
+    width: 77%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3em;
+}
+.company .alti-orgnisation-company {
+    width: 77%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3em;
+}
+/*.Recommandations-testimonal {
+    margin: 10% 5%;
+    text-align: center;
+    height: auto;
+}
+.carousel {
+    min-height: 50em;
+}*/
+.slide {
+    height: auto;
+}
+    
+.veritas{
+    max-width: 79%;
+}
+.veritas-logo{
+    max-width: 130%;   
+}
+}
+
+/*769px 991px*/
+
+@media only screen and (min-device-width : 769px) and (max-device-width : 991px){
+    
+    
+.programming-skills {
+    background-color: white;
+    margin: 2% 15%;
+    border: 1px solid white;
+    border-radius: 9px;
+    max-width: 66%;
+    padding: 25px 0px 27px 36px;
+    box-shadow: 1px 1px 3px #542727;
+}
+.company {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.company .tvsr-orgnisation-company {
+    width: 67%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2em;
+}
+.company .alti-orgnisation-company {
+    width: 67%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2em;
+}
+.veritas{
+    max-width: 79%;
+}
+.veritas-logo{
+    max-width: 130%;   
+}
+}   
+@media only screen and (min-device-width : 769px) and (max-device-width : 905px){
+.aboutimage{
+    margin:0px;
+}
+.author-image{
+    float: none;
+    max-width: 31%;
+}
+.about-content{
+    margin: 18px 0 0 0;
+    max-width: 64%;
+}
+.resume{
+    margin: 0px;
+}
+
+}   
+
+@media only screen and (min-device-width : 769px) and (max-device-width : 1024px){
+    #map{
+    max-width: 100%;
+    }
+    .google{
+        max-width: 81%;
+    }
+    .google-map{
+
+    }
+}
+
+
+
+/*large*/
+
+@media only screen and (min-device-width : 992px) and (max-device-width : 1020px){
+
+
+.company {
+    list-style: none;
+    padding: 0;
+} 
+}        
+
+@media only screen and (min-device-width : 992px) and (max-device-width : 1020px){
+
+    .aboutimage {
+    margin: 0px 0 0 54px;
+}
+}    
+
+
+@media  (min-device-width : 1021px) {
+/*
+.about {
+    margin: 0 98px;
+}*/
+.programming-skills {
+    background-color: white;
+    margin: 4% 23%;
+    border: 1px solid white;
+    border-radius: 9px;
+    max-width: 100%;
+    padding: 2px 0px 30px 36px;
+}
+  
+.company {
+    list-style: none;
+    padding: 0;
+}
+}   
+
+
+/* media queries for carousel */
+
+
+@media only screen and (min-device-width: 385px) and (max-device-width: 480px){
+    .Recommandations-testimonal{
+        margin: 10% 5%;
+        text-align: center;
+        /*min-height: 100%;*/
+        margin-bottom: 0;
+        /*height: 95%;*/
+    }
+    .carousel{
+        /*
+        min-height: 37em;*/
+    }
+    .slide{
+        height: auto;
+    }
+    .fa-2x{
+        font-size: 2em;
+        min-width: 100%;
+        text-align: left;
+    }
+    .carousel-content {
+        padding: 45px;
+        padding-bottom: 0;
+        font-size: small;
+        padding: 0 39px;
+        min-height: 100%;
+}
+}
+
+@media only screen and (min-device-width:481px) and (max-device-width:768px){
+    .Recommandations-testimonal{
+        margin: 10% 5%;
+        text-align: center;
+        margin-bottom: 0;
+        /*height: 95%;        
+        min-height: 100%;*/
+    }
+    .carousel{
+        
+        min-height: 0em;
+    }
+    .slide{
+        height: auto;
+    }
+    .fa-2x{
+        font-size: 2em;
+        min-width: 100%;
+        text-align: left;
+    }
+    .carousel-content {
+        padding: 45px;
+        padding-bottom: 0;
+        font-size: small;
+        padding: 0 39px;
+        min-height: 100%;
+}
+}
+
+
+
+@media only screen and (min-device-width:300px) and (max-device-width:384px){
+    .Recommandations-testimonal{
+       margin: 8%;
+        font-size: smaller;
+    height: 90%;
+    min-width: 20em;
+}
+    .carousel{
+        min-height: 116%;
+}
+    .carousel-content{
+        padding: 32px 18px 0 22px;
+}
+    .carouselline-first, .carouselline-second{
+        padding-bottom: 2px;
+    }
+    .carousel-image{
+        display: none;
+    }
+}
